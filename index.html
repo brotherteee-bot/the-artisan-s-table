@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Artisan's Table</title>
+	<meta charset="UTF-8">
+	<style>
+	    #ic_1 img {border: 3px solid #964B00; border-radius: 20px; width: 320px; height: 150px;}
+		#logo_brandname {display: flex; align-items: center; gap: 20px;}
+		#brand_text {display: flex; flex-direction: column; align items: flex-start;}
+		#logo_brandname img {width: 300px; height: 300px;}
+		#logo_brandname h1 {font-size: 5rem; font-family: cursive, snell; color: #964B00;}
+		html {background-color: #FFFDD0;}
+		#intro {text-align: center; font-size: 1.1rem; max-width: 900px; margin-top: -35px; line-height: 1.5; font-family: 'apple chancery', cursive; color: black; font-size: 14px}
+		h2 {font-family: cursive, snell; color: #964B00;}
+		#about p {font-family: cursive, apple chancery; font-size: 1rem;}
+		#menue p {font-size: 1rem; font-family: cursive, apple chancery; color: black;}
+		#menue #gallery figure img {height: 200px; width: 200px; border: 2px solid #964B00; border-radius: 20px;}
+		#menue #gallery figure figcaption {font-family: cursive, snell; max-width: 200px;}
+		#menue #gallery figure figcaption b {color: GREEN;}
+		#menue #gallery {display: flex; flex-direction: column;}
+		#menue #gallery_intro {max-width: 340px;}
+		#sbs {display: flex; gap: 70px; margin-top: 80px;}
+		#sbs #classes p {font-family: 'apple chancery', cursive; font-size: 1rem; color: black;}
+		#sbs #classes_testimonials_info #testimonials {margin-top: 65px;}
+		#sbs #classes_testimonials_info #testimonials p {font-family: cursive;}
+		#sbs #classes_testimonials_info #testimonials span {font-size: 0.8rem;}
+		#sbs #classes_testimonials_info #info p {font-family: 'apple chancery', cursive;}
+		a {text-decoration: underline; color: #6B1D2F;}
+		form {font-family: 'apple chancery', cursive;}
+		h4, h3 {color: #964B00;}
+		#apply legend {color: #964B00;}
+		fieldset {line-height: 2rem; border: none; padding: 0px;}
+		footer {display: flex; font-family: 'apple chancery', cursive; color: #F5F5DC; background-color: #a59079; padding: 10PX; font-size: 0.9rem; gap: 30px; margin-top: 60px;}
+		#brand_description h2 {color: GREEN;}
+		footer p {max-width: 500px;}
+		footer #brand_description h2, #con {color: #964B00;}
+		a:hover {color: D4AF37;}
+		button {background-color: #964B00; color: #F5F5DC; border-radius: 20px;}
+		input {background-color: #EDC9AF; border-radius: 8px;}
+		radio, checkbox {background-color: #EDC9AF;}
+		
+	</style>
+</head>
+
+<body>
+    <header>
+	    <div id="ic_1">
+	        <img src="images/artisan 1.png" alt="restaurant kitchen"> 
+		    <img src="images/artisan 2.png" alt="restaurant dinning area">
+		    <img src="images/artisan 3.png" alt="restaurant dinning area">
+		    <img src="images/artisan 4.png" alt="restaurant dinning area">
+		</div>
+		
+		<div id="logo_brandname">
+		    <img src="images/artisan logo.png" alt="restaurant logo">
+			<div id="brand_text">
+			    <h1>THE ARTISAN'S TABLE</h1>
+				<p id="intro"><em>"We believe good food brings people together. At The Artisan's Table, we prepare familiar Nigerian favourites
+                with care, fresh ingredients, and a passion for sharing our culinary heritage."</em></p>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+	    <section id="about">
+	        <h2>About The Artisan's Table:</h2>
+		    <p> At the Artisan's table, we believe good food brings people together. Based in Port Harcourt, Rivers State, we prepare delicious Nigerian meals using fresh ingredients, traditional recipes, and a passion for great food. From our favorite local dishes to beautifully presented meals, every plate is prepared with care, bringing familiar flavors to your table.</p>
+		    <p>Our passion goes beyond serving food. We create welcoming experiences where friends and families can share memorable meals, and beginners can discover the joy of Nigerian cooking through our cooking classes. Whether you're ordering a meal or learning a new recipe, you are always welcome at The Artisans Table, where Nigerian culinary heritage meets genuine hospitality.</p>
+	    </section>
+		
+		<div id="sbs">
+		    <section id="menue">
+		        <h2>What We Serve</h2>
+			    <p id="gallery_intro">At The Artisan's Table, we serve a variety of dishes including the following:</p>
+			    <div id="gallery">
+			        <figure>
+				        <img src="images/artisan 5.jpg" alt="egusi soup">
+					    <figcaption>Authentic High-end Egusi Soup With Swallow <b>Price <span class="price">&#8358 4,000</span></b></figcaption>
+				    </figure>
+				    <figure>
+				        <img src="images/artisan 6.jpg" alt="native soup">
+					    <figcaption>Delicious Native Soup With Swallow <b>Price <span class="price">&#8358  4,500</span></b></figcaption>
+				    </figure>
+				    <figure>
+				        <img src="images/artisan 7.jpg" alt="Nigerian Jollof Rice">
+					    <figcaption>Hot Tasty Nigerian Jollof Rice <b>Price <span class="price">&#8358 3,500</span></b></figcaption>
+				    </figure>
+				    <figure>
+				        <img src="images/artisan 8.jpg" alt="Nigerian Fried Rice">
+					    <figcaption>Hot And Delicious Nigerian Fried Rice <b>price <span class="price">&#8358 4,000</span></b></figcaption>
+				    </figure>
+				    <figure>
+				        <img src="images/artisan 12.jpg" alt="White Rice And Stew">
+					    <figcaption>Exceptional White Rice And Stew <b>Price <span class="price">&#8358 5,000</span></b></figcaption>
+				    </figure>
+				    <figure>
+				        <img src="images/artisan 14.jpg" alt="Rice And Ofada Sauce">
+					    <figcaption>Rice And Authentic Traditional Ofada Sauce <b>Price <scope class="price">&#8358 5,000</scope></b></figcaption>
+				    </figure>
+				    <figure>
+				        <img src="images/artisan 15.jpg" alt="Grilled Chicken">
+					    <figcaption>Throughly Grilled Chicken <b>Price <scope class="price">&#8358 10,000</scope></b></figcaption>
+				    </figure>
+					<figure>
+					    <img src="images/artisan 13.jpg" alt="fried plantain">
+						<figcaption>Crispy Fried Plantain With Sauce <b>Price <scope class="price">&#8358 3,000</scope></b></figcaption>
+					</figure>
+			    </div>
+			
+		    </section>
+		
+		    <section id="classes_testimonials_info">
+			    <div id="classes">  
+		            <h2>Learn The Art Of Nigerian Cooking</h2>
+				    <p>At The Artisan's Table we believe that cooking is more than preparing a meal; it is an opportunity to express creativity, preserve traditions, and bring people together. Our cooking classes are designed for anyone who wants to explore the richness of Nigerian cuisine, Whether you are a complete beginner or someone looking to improve your skills in the kitchen.</p>
+				    <p>Learn how to prepare delicious Nigerian favorites while discovering the techniques, ingredients, and little details that make each dish special. From understanding the right combination of spices to achieving the perfect texture and balancing flavors, we want you to develop the knowledge and confidence to recreate wonderful meals in your own kitchen. Our approach focuses on practical learning, giving you the opportunity to understand not just how a dish is prepared, but why each step matters. </p>
+				    <p>Beyond the recipes, our classes offer an opportunity to appreciate the culinary heritage behind the food we Enjoy. You discover the key creativity and traditions that make Nigerian cooking so distinctive, all within a welcoming environment where questions are encouraged and learning is part of the experience. Whether you're hoping to become more independent in the kitchen, surprise your family with a delicious meal, or simply explore a new passion, there's something rewarding about learning to create good food with your own hands  </p>
+			    	<br>
+				    <p>Your culinary Journey Starts Here!!!</p>
+				</div>
+                
+                <section id="form">
+				    <form id="apply" method="POST">
+					    <h3>Ready To Get Cooking?</h3>
+						<p><b>Take the first step towards becoming more confident in the kitchen.</b></p>
+						<p>Our Nigerian cooking classes are designed for food lovers who want to learn new skills, explore traditional recipes, and prepare delicious meals with confidence.</p>
+						<p>To give every participant a worthwhile learning experience, <b>spaces in each class are limited.</b> Complete the application form below to express your interest. We'll contact you with information about available dates, class fees, and the next step for securing your place.</p>
+					    <br>
+						<h4>Apply for a cooking class</h4>
+						<fieldset id="personal_info">
+						    <legend>Personal information</legend>
+							<ul>
+							<li><label for="user_name">Name:</label>
+							<input type="text" id="user_name" name="name" required placeholder="Enter your full name"></li>
+							
+							<li><label for="user_email">Email:</label>
+							<input type="email" id="user_email" name="email" required placeholder="Enter your email address"></li>
+							
+							<li><label for="user_phone_number">Phone Number:</label>
+							<input type="tel" id="user_phone_number" name="phone number" required placeholder="Enter your phone number"></li>
+							</ul>
+						</fieldset>
+						
+                        <fieldset id="cooking_experience">
+                            <legend>Your cooking experience</legend>
+							<p>How would you describe your cooking experience?</p>
+							<ul>
+							<li><input type="radio" id="01" name="your_experience" value="complete beginner" required>
+							<label for="01">Complete Beginner<label></li>
+							
+							<li><input type="radio" id=02 name="your_experience" value="I know a few basics" required>
+							<label for="02">I Know A Few Basics</label></li>
+							
+							<li><input type="radio" id="03" name="your_experience"value="I can cook but want to improve" required>
+							<label for="03">I Can Cook But Want To Improve</label></li>
+							
+							<li><input type="radio" id="04" name="your_experience" value="looking to learn more" required>
+							<label for="04">Looking To Learn More Nigerian Dishes</label></li>
+							</ul>
+                        </fieldset>    							
+						
+						<fieldset id="what_to_learn">
+						    <legend>What Would You Like To Learn</legend>
+						    <p>Which area of Nigerian cooking interests you the most?</p>
+							<ul>
+							<li><input type="checkbox" id="05" name="rice_dishes" value="rice dishes including jollof rice">
+							<label for="05">Rice Dishes Including Jollof Rice</label></li>
+							
+							<li><input type="checkbox" id="06" name="traditional_soup" value="traditional nigerian soups and swallows">
+							<label for="06">Traditional Nigerian Soups And Swallows</label></li>
+							
+							<li><input type="checkbox" id="07" name="meat_chicken_fish" value="meat chicken and fish preparation">
+							<label for="07">Meat, Chicken And Fish preparation</label></li>
+							
+							<li><input type="checkbox" id="08" name="nigerian_cooking_techniques" value="nigerian cooking techniqes and essential kitchen skills">
+							<label for="08">Nigerian Cooking Techniques And Essential Kitchen Skills</label></li>
+							
+							<li><input type="checkbox" id="09" name="combination" value="a combination of different nigerian dishes">
+							<label for="09">A Combination Of ferent Nigerian Dishes</label></li>
+							</ul>
+						</fieldset>
+						
+						<fieldset id="more">
+						    <legend>Tell Us A Little More</legend>
+						    <p>Why would you like to join our cooking classes?</p>
+							<textarea name="more" id="more_about_you" rows="10" cols="100" placeholder="share your interests in a few sentences"></textarea>
+						</fieldset>
+						<br>
+						<button type="submit">Submit your application</button>
+					</form>
+                </section>      
+				
+				<div id="testimonials">
+				    <h2>Testimonials</h2>
+					<p>Here are a few things our customers have to say about us:</p>
+					<br>
+					<p><q><i>I ordered food for a family gathering, and everyone loved it. The food was fresh, and the portions were generous.</q></i></p>
+					<span class="customer"><p>-<cite>Chisom</cite>, Port Harcourt</p></span>
+					<br>
+					<p><q><i>I  attended one of their cooking classes and learned more than I expected. Everything was explained clearly, even for someone who had never cooked some of those dishes before.</i></q></p>
+				    <span class="customer"><p>-<cite>Tarela</cite>, Porth Harcourt</p></span>
+				</div>
+				<br>
+				<div id="info">
+				    <h2>Reach Out To Us</h2>
+					<p>Did you find our business worth patronizing? Contact us using the method most convenient for you.</p>
+					<p>Telephone: <a href="tel: +2348034567890"> 0803 456 7890</a></p>
+					<p>Email: <a href="mailto: helloartisan's@gmail.com"> helloartisan's@gmail.com </a></p>
+					<p>Facebook: <a href="https://www.facebook.com/share/19ZgP3i4Pg/"> The Artisan's Table</a></p>
+				</div>
+			</section>
+		</div>
+	</main>
+	
+	<footer>
+		<section id="brand_description">
+		    <img src="images/artisan logo.png" alt="logo" width="100px" height="100px">
+	        <h2>THE ARTISAN'S TABLE</h2>
+		    <p id="goof_food"><Q><I>Good food brings people together</i></q></p>
+			<p id="Celebrating"><q><i>Celebrating Nigerian flavours through delicious meals, genuine hospitality, and cooking experiences.</i></q></p>
+		</section>
+			
+		<section id="contacts">
+		    <p id="con"><b>Contact Us</b></p>
+			<p></p>Port Harcourt, Rivers State, Nigeria.
+			<p><a href="tel: +2348034567890">0803 456 7890</a></p>
+			<p><a href="mailto: helloartisan's@gmail.com">helloartisans's@gmail.com</p>
+			<p>&copy; 2026 The Artisan's Table. All rights reserved.</p>
+		</section>
+			
+		<section id="links">
+		    <ul>
+			    <li><a href="#brand_text">Home</a></li>
+				<li><a href="#menue">Our Menue</a></li>
+				<li><a href="#classes">Cooking Classes</a></li>
+				<li><a href="#info">Contact</a></li>
+			</ul>
+		</section>
+	</footer>
+
+</body>
+
+
+
+</html>
